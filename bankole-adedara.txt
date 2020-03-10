@@ -1,0 +1,32 @@
+link to hosted page: http://www.mycodebitsassignment.com/
+
+Q: What is the difference between an inline element and a block element
+A: By default, block level elements take up the entire width of it's parent container. 
+After it's reached the edge of the container it'll drop below the other elements. 
+So if you've just got a paragraph in the <body> then it will take up the entire with of the browser, 
+unless you've set a width for the body. So, that means that even if you've got short sentences in separate paragraph tags, 
+each paragraph will start on a new line. A few of the most 
+common block level elements are:
+<h1>, <p>, <div>, <ul>, <ol>, <li>, <nav>, and <header>. 
+On the other hand, inline elements don't start on new lines, meaning that they'll line up right next to each other on the same line if there's enough room for them.
+
+
+Q: What happens when an element is positioned absolutely?
+A: An element with "position: absolute" is removed from the normal document flow. 
+It is positioned automatically to the starting point (top-left corner) of its parent element. 
+If it doesn't have any parent elements, then the initial document <html> will be its parent.
+
+Q: How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+A: Putting an inline element inside a block element
+
+Q: Name 4 elements that are diplay block by default
+<h1>, <p>, <div>, <ul>
+
+5 elements that are display inline by default and 1 element that is display inline-block by default 
+<button>, <input>, <label>, <select>, <textarea>.
+5. 
+In your own words, explain the box model. What is the fix for the box model?
+The concept of the CSS box model is that all HTML elements can be considered as boxes. 
+The CSS box model is essentially a box that wraps around every HTML element. 
+It consists of: margin, which is the space between the box itself and its closest elements;
+borders, which are the four edges of the box and; padding, which is the space between the content and the border and the actual content.
